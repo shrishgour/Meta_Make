@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3aa6c243b2520c488a8d06ac5df97ac, type: 3}
+  m_Name: UIDialogConfig
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  data:
+  - dialogID: TestDialog
+    prefab: {fileID: 23912520886433941, guid: 663c77adf33c6a34095b091da47548c6, type: 3}
+  - dialogID: ProgressionDialog
+    prefab: {fileID: 1819677646735132799, guid: 9779516cf4971c441a2ba99026e5fc35, type: 3}
+  - dialogID: CharacterCustomizationDialog
+    prefab: {fileID: 2736350731082394729, guid: ef86c872d9cd4f844b112e9b2b0c485c, type: 3}
+  - dialogID: ChatDialog
+    prefab: {fileID: 2233839895173256066, guid: f49fc991efec80948984f349a006d084, type: 3}
+  - dialogID: NarrativeDialog
+    prefab: {fileID: 2233839895173256066, guid: 945a673c138f0de4a9abcb968a988dd3, type: 3}

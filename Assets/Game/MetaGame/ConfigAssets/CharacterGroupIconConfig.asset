@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66897454d31a02f41966999077daf9f2, type: 3}
+  m_Name: CharacterGroupIconConfig
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  data:
+  - groupID: hair
+    icon: {fileID: 96866965281251254, guid: 3c1d769624a34b948b390dcb85a3f46d, type: 3}
+  - groupID: top
+    icon: {fileID: -3255977625785807454, guid: 3c1d769624a34b948b390dcb85a3f46d, type: 3}
+  - groupID: bottom
+    icon: {fileID: -695118187904345039, guid: 3c1d769624a34b948b390dcb85a3f46d, type: 3}
+  - groupID: shoes
+    icon: {fileID: -1404049791756051503, guid: 3c1d769624a34b948b390dcb85a3f46d, type: 3}

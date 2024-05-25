@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db342fe09fd85f940af2148daf31f65e, type: 3}
+  m_Name: SequenceDataContainer
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  data:
+  - id: IntroScene
+    commandDataList:
+    - id: 0
+      commandType: Core.Sequencer.Commands.SetBackgroundCommand
+      commandData: '{"backgroundID":"SchoolOutside","nextNodeIndex":1,"IsCommandDone":false,"IsSkippable":false}'
+    - id: 1
+      commandType: Core.Sequencer.Commands.NarrativeCommand
+      commandData: '{"chatString":"In the halls of Eastwood High, Lilly, a shy girl
+        with a secret crush, couldn''t resist stealing glances at Ethan, the charismatic
+        heartthrob of her class.","nextNodeIndex":5,"IsCommandDone":false,"IsSkippable":false}'
+    - id: 2
+      commandType: Core.Sequencer.Commands.ChatCommand
+      commandData: '{"chatData":{"charID":"Lilly","chatString":"<color=red>Lilly</color>:
+        Hey, um, I was wondering if... you''d be my partner for the school dance?
+        ","screenOrient":"Left"},"nextNodeIndex":3,"IsCommandDone":false,"IsSkippable":false}'
+    - id: 3
+      commandType: Core.Sequencer.Commands.ChatCommand
+      commandData: '{"chatData":{"charID":"Ethan","chatString":"Ethan: (smirking)
+        Oh, really? You''re serious? ","screenOrient":"Right"},"nextNodeIndex":6,"IsCommandDone":false,"IsSkippable":false}'
+    - id: 4
+      commandType: Core.Sequencer.Commands.SetBackgroundCommand
+      commandData: '{"backgroundID":"SchoolHallway","nextNodeIndex":2,"IsCommandDone":false,"IsSkippable":false}'
+    - id: 5
+      commandType: Core.Sequencer.Commands.NarrativeCommand
+      commandData: "{\"chatString\":\"The approaching school dance sparked a daring
+        idea\u2014she would ask Ethan to be her dance partner, little knowing that
+        this moment would set her on a transformative journey of self-discovery.
+        \",\"nextNodeIndex\":4,\"IsCommandDone\":false,\"IsSkippable\":false}"
+    - id: 6
+      commandType: Core.Sequencer.Commands.ChatCommand
+      commandData: '{"chatData":{"charID":"Lilly","chatString":"(nervous) Yeah, I
+        thought it could be fun. ","screenOrient":"Left"},"nextNodeIndex":7,"IsCommandDone":false,"IsSkippable":false}'
+    - id: 7
+      commandType: Core.Sequencer.Commands.ChatCommand
+      commandData: '{"chatData":{"charID":"Ethan","chatString":"(laughs) Fun? Look,
+        Lilly, let''s be real. You and me at the dance? It''s just not going to work.","screenOrient":"Right"},"nextNodeIndex":8,"IsCommandDone":false,"IsSkippable":false}'
+    - id: 8
+      commandType: Core.Sequencer.Commands.ChatCommand
+      commandData: '{"chatData":{"charID":"Lilly","chatString":"(disheartened) Oh,
+        I... I thought maybe...","screenOrient":"Left"},"nextNodeIndex":9,"IsCommandDone":false,"IsSkippable":false}'
+    - id: 9
+      commandType: Core.Sequencer.Commands.ChatCommand
+      commandData: '{"chatData":{"charID":"Ethan","chatString":"(interrupting) Let''s
+        not kid ourselves. I''ve got a reputation to maintain, and being seen with
+        someone like you? It''s not going to help. ","screenOrient":"Right"},"nextNodeIndex":10,"IsCommandDone":false,"IsSkippable":false}'
+    - id: 10
+      commandType: Core.Sequencer.Commands.ChatCommand
+      commandData: '{"chatData":{"charID":"Lilly","chatString":"(on the verge of
+        tears) I didn''t realize it was such a big deal.","screenOrient":"Left"},"nextNodeIndex":11,"IsCommandDone":false,"IsSkippable":false}'
+    - id: 11
+      commandType: Core.Sequencer.Commands.ChatCommand
+      commandData: '{"chatData":{"charID":"Ethan","chatString":"Well, it is. Maybe
+        if you worked on your image a bit, things could be different.","screenOrient":"Right"},"nextNodeIndex":12,"IsCommandDone":false,"IsSkippable":false}'
+    - id: 12
+      commandType: Core.Sequencer.Commands.ChatCommand
+      commandData: '{"chatData":{"charID":"Lilly","chatString":"(to herself, hurt)
+        Maybe he''s right. Maybe I need to change. I''ll show him that I can be someone
+        he''d want to be seen with.","screenOrient":"Left"},"nextNodeIndex":13,"IsCommandDone":false,"IsSkippable":false}'
+    - id: 13
+      commandType: Core.Sequencer.Commands.NarrativeCommand
+      commandData: '{"chatString":"And so, with a bruised heart, Lilly decided to
+        embark on a journey of self-discovery and transformation, fueled by the harsh
+        words that lingered in her mind. She was determined to rewrite not just the
+        rules of the high school game but her own story as well.","nextNodeIndex":-1,"IsCommandDone":false,"IsSkippable":false}'

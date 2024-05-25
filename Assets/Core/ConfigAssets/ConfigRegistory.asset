@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b61e976855aa24a943fe569467ee87, type: 3}
+  m_Name: ConfigRegistory
+  m_EditorClassIdentifier: 
+  configStoragePath: Assets/Game/MetaGame/ConfigAssets/
+  configs:
+  - {fileID: 11400000, guid: 7c9b0fbd5a9e8d046b1f0cdbea020f04, type: 2}
+  - {fileID: 11400000, guid: e4ba751734b888b4aa7ae43725893325, type: 2}
+  - {fileID: 11400000, guid: 3890a7371fbca034aaf49c48326c9352, type: 2}
+  - {fileID: 11400000, guid: f67f09f6ec894e64e995b752751871e1, type: 2}
+  - {fileID: 11400000, guid: 1ba8d2bef5045ec44a15f9d58c74716b, type: 2}
+  - {fileID: 11400000, guid: d6ea214cd8b8b174fb5545bf53c17390, type: 2}
+  - {fileID: 11400000, guid: 095dbd4bc882e66488657b287a485cf1, type: 2}
+  - {fileID: 11400000, guid: d32b6c1f16d86724d9294bc553f051a4, type: 2}
